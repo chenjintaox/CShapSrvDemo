@@ -33,6 +33,7 @@
             // 
             // serviceProcessInstaller
             // 
+            this.serviceProcessInstaller.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller.Password = null;
             this.serviceProcessInstaller.Username = null;
             // 
@@ -40,7 +41,7 @@
             // 
             this.serviceInstaller.Description = "C#服务程序示例";
             this.serviceInstaller.DisplayName = "CShapSrv Demo";
-            this.serviceInstaller.ServiceName = "Service";
+            this.serviceInstaller.ServiceName = "ServiceDemo";
             // 
             // ProjectInstaller
             // 
